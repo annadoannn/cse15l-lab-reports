@@ -12,7 +12,7 @@ For each, include:
 - Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error.
 
 ## 1. Share an example of using the command with no arguments. 
-![image](Screen Shot 2023-10-08 at 9.06.54 PM.png)
+![image](lab1-ex1.png)
 
 ## 2. Share an example of using the command with a path to a directory as an argument 
 

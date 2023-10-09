@@ -14,7 +14,7 @@ For each, include:
 ## 1. Share an example of using the command with no arguments. 
 ![image](lab1-ex1.png)
 
-*cd:*
+*`cd:`*
 - **What was the working directory when the command was run?**
   `/home`
 - **How did you get the output?**

@@ -25,7 +25,7 @@ For each, include:
 
 *`ls`:*
 - **What was the working directory when the command was run?**
-  `/home`
+      `/home`
 - **How did you get the output?**
        
 - **Is the output an error? why or why not?**

@@ -27,7 +27,7 @@ For each, include:
 - **What was the working directory when the command was run?**
       `/home`
 - **How did you get the output?**
-       
+       `ls` is the library function in the terminal. By using `ls` at the `/home` directory, it shows what path and/or directory could be accessed from your main directory. 
 - **Is the output an error? why or why not?**
       The output is not an error. Due to `cd` not having an argument, it's the same as saying there's nothing to change. Therefore, there's no output error.
 

@@ -13,9 +13,11 @@ For each, include:
 
 ## 1. Share an example of using the command with no arguments. 
 ![image](lab1-ex1.png)
+
 *cd:*
 - what was the working directory when the command was run?
- `\home`
+
+`\home`
 - how did you get the output?
 
 - is the output an error? why or why not?

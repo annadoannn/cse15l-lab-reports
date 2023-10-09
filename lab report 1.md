@@ -22,7 +22,22 @@ For each, include:
 - **Is the output an error? why or why not?**
       The output is not an error. Due to `cd` not having an argument, it's the same as saying there's nothing to change. Therefore, there's no output error.
 
+
+*`ls`:*
+- **What was the working directory when the command was run?**
+  `/home`
+- **How did you get the output?**
+       
+- **Is the output an error? why or why not?**
+      The output is not an error. Due to `cd` not having an argument, it's the same as saying there's nothing to change. Therefore, there's no output error.
+
+
+*`cat`:*
+
+
 ## 2. Share an example of using the command with a path to a directory as an argument 
+![image](lab1-ex2.png)
+
 
 ## 3. Share an example of using the command with a path to a file as an argument.
 

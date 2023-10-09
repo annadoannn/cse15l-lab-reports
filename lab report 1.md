@@ -12,7 +12,7 @@ For each, include:
 - Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error.
 
 ## 1. Share an example of using the command with no arguments. 
-![image](https://github.com/annadoannn/cse15l-lab-reports/assets/125645248/9daa7d42-8a27-4c6f-9172-ca42d775d44a)
+![image](Screen Shot 2023-10-08 at 9.06.54 PM.png)
 
 ## 2. Share an example of using the command with a path to a directory as an argument 
 

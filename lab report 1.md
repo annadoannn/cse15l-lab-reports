@@ -20,16 +20,16 @@ For each, include:
 - **How did you get the output?**
       `cd` stands for change directory. Due to `cd` not having an argument, it would result in not having an output because there is no path to lead to another directory outside of `/home`. 
 - **Is the output an error? why or why not?**
-      The output is not an error. Due to `cd` not having an argument, it's the same as saying there's nothing to change. Therefore, there's no output error.
+      The output is not an error. Due to `ls` not having an argument, it's the same as saying there's nothing to change. Therefore, there's no output error.
 
 
 *`ls`:*
 - **What was the working directory when the command was run?**
       `/home`
 - **How did you get the output?**
-       `ls` is the library function in the terminal. By using `ls` at the `/home` directory, it shows what path and/or directory could be accessed from your main directory. 
+       `ls` is the library function in the terminal. By using `ls` at the `/home` directory, it shows what path and/or directory can be accessed directly from your working directory. 
 - **Is the output an error? why or why not?**
-      The output is not an error. Due to `cd` not having an argument, it's the same as saying there's nothing to change. Therefore, there's no output error.
+      The output is not an error. Due to `ls` not having an argument, it should only show that the `lecture1` directory can be accessed, unless otherwise noted in the argument. Therefore, there's no output error.
 
 
 *`cat`:*

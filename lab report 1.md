@@ -16,7 +16,8 @@ For each, include:
 
 *cd:*
 - what was the working directory when the command was run?
-| `\home`
+
+     `\home`
 - how did you get the output?
 
 - is the output an error? why or why not?

@@ -15,12 +15,13 @@ For each, include:
 ![image](lab1-ex1.png)
 
 *cd:*
-- what was the working directory when the command was run?
+- **what was the working directory when the command was run?**
   `\home`
-- how did you get the output?
-      "cd" stands for change directory. Due to cd not having an argument, it would result in not having an output because there is no path to lead to another directory outside of `\home`.
+- **how did you get the output?**
+      `cd` stands for change directory. Due to `cd` not having an argument, it would result in not having an output because there is no path to lead to another directory outside of `\home`.
   
-- is the output an error? why or why not?
+- **is the output an error? why or why not?**
+      The output is not an error. Due to `cd` not having an argument, it's the same as saying there's nothing to change. Therefore, there's no output error.
 
 ## 2. Share an example of using the command with a path to a directory as an argument 
 

@@ -75,7 +75,7 @@ For each, include:
 - **How did you get the output?**
        `cat` read the data from the directory path and outputted the argument's content. 
 - **Is the output an error? Why or why not?**
-      The output is not an error. Though the argument isn't a file, `cat` simply outputs and confirms that the directory is a directory.
+      The output is not an error. Though the argument isn't a file path, `cat` simply outputs and confirms that the directory is a directory.
 
 
 

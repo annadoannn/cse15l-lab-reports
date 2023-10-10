@@ -15,6 +15,7 @@ For each, include:
 ![image](lab1-ex1.png)
 
 *`cd:`*
+![image](lab1-ex1-cd.png)
 - **What was the working directory when the command was run?**
   `/home`
 - **How did you get the output?**
@@ -24,6 +25,7 @@ For each, include:
 
 
 *`ls`:*
+![image](lab1-ex1-ls.png)
 - **What was the working directory when the command was run?**
       `/home`
 - **How did you get the output?**
@@ -33,7 +35,13 @@ For each, include:
 
 
 *`cat`:*
-
+![image](lab1-ex1-cat.png)
+- **What was the working directory when the command was run?**
+      `/home`
+- **How did you get the output?**
+       `ls` is the library function in the terminal. By using `ls` at the `/home` directory, it shows what file and/or directory can be accessed directly from the working directory. 
+- **Is the output an error? Why or why not?**
+      The output is not an error. Due to `ls` not having an argument, it should only show that the `lecture1` directory can be accessed, unless otherwise noted in the argument. Only `lecture1` shows also due to the fact that the directories in this lab are nested. Therefore, there's no output error.
 
 ## 2. Share an example of using the command with a path to a directory as an argument 
 ![image](lab1-ex2.png)

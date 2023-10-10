@@ -61,11 +61,11 @@ For each, include:
 *`ls` with directory path argument:*
 ![image](lab1-ex2-ls.png)
 - **What was the working directory when the command was run?**
-      `/home/lecture1`
+      `/home`
 - **How did you get the output?**
-       `ls` is the library function in the terminal. By using `ls` at the `/home` directory, it shows what file and/or directory can be accessed directly from the working directory. In this case, the directory `lecture1` is the only one that can be directly accessed from `/home`.
+       By using `ls` with the `/home/lecture1` directory argument, the output shows what directories and files can be accessed from the working directory. The `messages` directory is printed, highlighted, and bolded in blue, while the files are also outputted.
 - **Is the output an error? Why or why not?**
-      The output is not an error. Due to `ls` not having an argument, it should only show that the `lecture1` directory can be accessed, unless otherwise noted in the argument. Only `lecture1` shows due to the fact that the directories in this lab are nested. Therefore, there's no output error.
+      The output is not an error. `ls` did what the function was supposed to do with the given argument and the output reflected that. 
 
 
 *`cat` with directory path argument:*
@@ -73,9 +73,9 @@ For each, include:
 - **What was the working directory when the command was run?**
       `/home/lecture1`
 - **How did you get the output?**
-       `cat` is the concatenate function in the terminal. It reads data from the file and gives its content as the output. It requires a path to output what is inside.
+       `cat` read the data from the directory path and outputted the argument's content. 
 - **Is the output an error? Why or why not?**
-      The output is not an error. Due to `cat` not having an argument, there is nothing to output and it shouldn't. 
+      The output is not an error. Though the argument isn't a file, `cat` simply outputs and confirms that the directory is a directory.
 
 
 

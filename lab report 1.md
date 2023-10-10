@@ -1,5 +1,5 @@
 # Lab 1 - Remote Access and FileSystem 
-*By Anna Doan*
+**By Anna Doan**
 
 
 For each of the commands `cd`, `ls`, and `cat`, and using the workspace you created in this lab:

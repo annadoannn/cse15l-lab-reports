@@ -39,9 +39,9 @@ For each, include:
 - **What was the working directory when the command was run?**
       `/home`
 - **How did you get the output?**
-       `ls` is the library function in the terminal. By using `ls` at the `/home` directory, it shows what file and/or directory can be accessed directly from the working directory. 
+       `cat` is the concatenate function in the terminal. It reads data from the file and gives its content as the output. It requires a path to output what is inside.
 - **Is the output an error? Why or why not?**
-      The output is not an error. Due to `ls` not having an argument, it should only show that the `lecture1` directory can be accessed, unless otherwise noted in the argument. Only `lecture1` shows also due to the fact that the directories in this lab are nested. Therefore, there's no output error.
+      The output is not an error. Due to `cat` not having an argument, there is nothing to output and it shouldn't. 
 
 ## 2. Share an example of using the command with a path to a directory as an argument 
 ![image](lab1-ex2.png)

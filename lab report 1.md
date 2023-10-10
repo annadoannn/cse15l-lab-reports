@@ -41,25 +41,27 @@ For each, include:
 - **How did you get the output?**
        `cat` is the concatenate function in the terminal. It reads data from the file and gives its content as the output. It requires a path to output what is inside.
 - **Is the output an error? Why or why not?**
-      The output is not an error. Due to `cat` not having an argument, there is nothing to output and it shouldn't. 
+      The output is not an error. Due to `cat` not having an argument, there is nothing to output and it shouldn't.
+
+  
 
 ## 2. Share an example of using the command with a path to a directory as an argument 
 ![image](lab1-ex2.png)
 
 *`cd` with directory path argument:*
-![image](lab1-ex1-cd.png)
+![image](lab1-ex2-cd.png)
 - **What was the working directory when the command was run?**
-  `/home`
+  `/home/lecture1`
 - **How did you get the output?**
-      `cd` stands for change directory. Due to `cd` not having an argument, it would result in not having an output because there is no path to lead to another directory outside of `/home`.
+      `cd` changed the directory from `/home` to `/home/lecture1` due to the  parameter path I've given to the function. 
 - **Is the output an error? Why or why not?**
-      The output is not an error. Due to `ls` not having an argument, it's the same as saying there's nothing to change. Therefore, there's no output error.
+      The output is not an error. Although `ls` didn't technically output anything, if we take a look at the screenshot above, we can see that the terminal successfully changed working directories.
 
 
 *`ls` with directory path argument:*
-![image](lab1-ex1-ls.png)
+![image](lab1-ex2-ls.png)
 - **What was the working directory when the command was run?**
-      `/home`
+      `/home/lecture1`
 - **How did you get the output?**
        `ls` is the library function in the terminal. By using `ls` at the `/home` directory, it shows what file and/or directory can be accessed directly from the working directory. In this case, the directory `lecture1` is the only one that can be directly accessed from `/home`.
 - **Is the output an error? Why or why not?**
@@ -67,9 +69,9 @@ For each, include:
 
 
 *`cat` with directory path argument:*
-![image](lab1-ex1-cat.png)
+![image](lab1-ex2-cat.png)
 - **What was the working directory when the command was run?**
-      `/home`
+      `/home/lecture1`
 - **How did you get the output?**
        `cat` is the concatenate function in the terminal. It reads data from the file and gives its content as the output. It requires a path to output what is inside.
 - **Is the output an error? Why or why not?**

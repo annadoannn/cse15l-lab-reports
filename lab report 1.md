@@ -19,7 +19,7 @@ For each, include:
 - **What was the working directory when the command was run?**
   `/home`
 - **How did you get the output?**
-      `cd` stands for change directory. Due to `cd` not having an argument, it would result in not having an output because there is no path to lead to another directory outside of `/home`. 
+      `cd` stands for change directory. Due to `cd` not having an argument, it would result in not having an output because there is no path to lead to another directory outside of `/home`. In this case, the directory `library1` is the only one that can be directly accessed from `/home`.
 - **Is the output an error? Why or why not?**
       The output is not an error. Due to `ls` not having an argument, it's the same as saying there's nothing to change. Therefore, there's no output error.
 

@@ -11,7 +11,7 @@ For each, include:
 - A sentence or two explaining why you got that output (e.g. what was in the filesystem, what it meant to have no arguments).
 - Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error.
 
-## 1. Share an example of using the command with no arguments. 
+## 1. Share an example of using the command with <ins>no arguments</ins>. 
 ![image](lab1-ex1.png)
 
 *`cd`:*

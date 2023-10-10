@@ -11,10 +11,10 @@ For each, include:
 - A sentence or two explaining why you got that output (e.g. what was in the filesystem, what it meant to have no arguments).
 - Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error.
 
-## 1. Share an example of using the command with <ins>no arguments</ins>. 
+## 1. Share an example of using the command with no arguments. 
 ![image](lab1-ex1.png)
 
-*`cd`:*
+*`cd` no argument:*
 ![image](lab1-ex1-cd.png)
 - **What was the working directory when the command was run?**
   `/home`
@@ -24,7 +24,7 @@ For each, include:
       The output is not an error. Due to `ls` not having an argument, it's the same as saying there's nothing to change. Therefore, there's no output error.
 
 
-*`ls`:*
+*`ls` no argument:*
 ![image](lab1-ex1-ls.png)
 - **What was the working directory when the command was run?**
       `/home`
@@ -34,7 +34,7 @@ For each, include:
       The output is not an error. Due to `ls` not having an argument, it should only show that the `lecture1` directory can be accessed, unless otherwise noted in the argument. Only `lecture1` shows due to the fact that the directories in this lab are nested. Therefore, there's no output error.
 
 
-*`cat`:*
+*`cat` no argument:*
 ![image](lab1-ex1-cat.png)
 - **What was the working directory when the command was run?**
       `/home`
@@ -46,7 +46,7 @@ For each, include:
 ## 2. Share an example of using the command with a path to a directory as an argument 
 ![image](lab1-ex2.png)
 
-*`cd` with argument:*
+*`cd` with directory path argument:*
 ![image](lab1-ex1-cd.png)
 - **What was the working directory when the command was run?**
   `/home`
@@ -56,7 +56,7 @@ For each, include:
       The output is not an error. Due to `ls` not having an argument, it's the same as saying there's nothing to change. Therefore, there's no output error.
 
 
-*`ls`:*
+*`ls` with directory path argument:*
 ![image](lab1-ex1-ls.png)
 - **What was the working directory when the command was run?**
       `/home`
@@ -66,7 +66,7 @@ For each, include:
       The output is not an error. Due to `ls` not having an argument, it should only show that the `lecture1` directory can be accessed, unless otherwise noted in the argument. Only `lecture1` shows due to the fact that the directories in this lab are nested. Therefore, there's no output error.
 
 
-*`cat`:*
+*`cat` with directory path argument:*
 ![image](lab1-ex1-cat.png)
 - **What was the working directory when the command was run?**
       `/home`

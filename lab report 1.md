@@ -98,7 +98,7 @@ For each, include:
 - **How did you get the output?**
        By using `ls` with the `/home/lecture1/Hello.java` path argument, the output shows what directories and files can be accessed from the argument. In this case, there's no other directory or file that can be accessed from `/home/lecture1/Hello.java`. Therefore, the only accessible subject is its own file. 
 - **Is the output an error? Why or why not?**
-      The output is not an error. `ls` displayed the only possibilities to access other files, and in this example, it's the `Hello.java` file. 
+      The output is not an error. `ls` displayed the only possibilities to access other files, and in this example, it's the `Hello.java` file path. 
 
 
 *`cat` with file path argument:*

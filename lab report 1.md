@@ -41,8 +41,7 @@ For each, include:
 - **How did you get the output?**
        `cat` is the concatenate function in the terminal. It reads data from the file and gives its content as the output. It requires a path to output what is inside.
 - **Is the output an error? Why or why not?**
-      The output is not an error. Due to `cat` not having an argument, there is nothing to output and it shouldn't.
-
+      The output is not an error. Due to `cat` not having an argument, there is nothing to output and it shouldn't. The `^C` is an abort function to exit out of the `cat` function. If we didn't abort, the terminal would've been continuously running while outputting nothing. 
   
 
 ## 2. Share an example of using the command with a path to a directory as an argument 
@@ -80,4 +79,37 @@ For each, include:
 
 
 ## 3. Share an example of using the command with a path to a file as an argument.
+![image](lab1-ex3.png)
+
+*`cd` with file path argument:*
+![image](lab1-ex3-cd.png)
+- **What was the working directory when the command was run?**
+  `/home`
+- **How did you get the output?**
+      Due to the argument being a path file, `cd` outputted an error message since the argument is not a directory. 
+- **Is the output an error? Why or why not?**
+      The output is not an error. `cd` only takes directory path arguments, so it displays a necessary error message to the user about the wrong argument input. 
+
+
+*`ls` with file path argument:*
+![image](lab1-ex3-ls.png)
+- **What was the working directory when the command was run?**
+      `/home`
+- **How did you get the output?**
+       By using `ls` with the `/home/lecture1/Hello.java` path argument, the output shows what directories and files can be accessed from the argument. In this case, there's no other directory or file that can be accessed from `/home/lecture1/Hello.java`. Therefore, the only accessible subject is its own file. 
+- **Is the output an error? Why or why not?**
+      The output is not an error. `ls` displayed the only possibilities to access other files, and in this example, it's the `Hello.java` file. 
+
+
+*`cat` with file path argument:*
+![image](lab1-ex3-cat.png)
+- **What was the working directory when the command was run?**
+      `/home`
+- **How did you get the output?**
+       `cat` read the data from the file path and outputted the file's content. 
+- **Is the output an error? Why or why not?**
+      The output is not an error. `cat` read `Hello.java` and displayed the contents within the file. Thus, it did what it was supposed to. 
+
+
+
 

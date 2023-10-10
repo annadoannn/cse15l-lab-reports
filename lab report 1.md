@@ -1,4 +1,4 @@
-# Remote Access and FileSystem 
+# Lab 1 -- Remote Access and FileSystem 
 For each of the commands `cd`, `ls`, and `cat`, and using the workspace you created in this lab:
 1. Share an example of using the command with no arguments.
 2. Share an example of using the command with a path to a directory as an argument.

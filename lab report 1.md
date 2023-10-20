@@ -60,7 +60,7 @@ For each, include:
 - **What was the working directory when the command was run?**
       `/home`
 - **How did you get the output?**
-       By using `ls` with the `/home/lecture1` directory argument, the output shows what directories and files are present in the working directory, and thus accessible. The `messages` directory is printed, highlighted, and bolded in blue, while the files are also outputted.
+       By using `ls` with the `/home/lecture1` directory argument, the output shows what directories and files are present in the working directory, and thus, they are accessible. The `messages` directory is printed, highlighted, and bolded in blue, while the files are also outputted.
 - **Is the output an error? Why or why not?**
       The output is not an error. `ls` did what the function was supposed to do with the given argument and the output reflected that. 
 

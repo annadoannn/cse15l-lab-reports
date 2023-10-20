@@ -14,8 +14,6 @@ For each, include:
 - Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error.
 
 ## 1. Share an example of using the command with no arguments. 
-![image](lab1-ex1.png)
-
 *`cd` no argument:*
 ![image](lab1-ex1-cd.png)
 - **What was the working directory when the command was run?**
@@ -23,7 +21,7 @@ For each, include:
 - **How did you get the output?**
       `cd` stands for change directory. Due to `cd` not having an argument, it would result in not having an output because there is no path to lead to another directory outside of `/home`.
 - **Is the output an error? Why or why not?**
-      The output is not an error. Due to `ls` not having an argument, it's the same as saying there's nothing to change. Therefore, there's no output error.
+      The output is not an error. Due to `cd` not having an argument, it's the same as saying there's nothing to change. Therefore, there's no output error.
 
 
 *`ls` no argument:*
@@ -47,8 +45,6 @@ For each, include:
   
 
 ## 2. Share an example of using the command with a path to a directory as an argument 
-![image](lab1-ex2.png)
-
 *`cd` with directory path argument:*
 ![image](lab1-ex2-cd.png)
 - **What was the working directory when the command was run?**
@@ -64,7 +60,7 @@ For each, include:
 - **What was the working directory when the command was run?**
       `/home`
 - **How did you get the output?**
-       By using `ls` with the `/home/lecture1` directory argument, the output shows what directories and files can be accessed from the working directory. The `messages` directory is printed, highlighted, and bolded in blue, while the files are also outputted.
+       By using `ls` with the `/home/lecture1` directory argument, the output shows what directories and files are present in the working directory, and thus accessible. The `messages` directory is printed, highlighted, and bolded in blue, while the files are also outputted.
 - **Is the output an error? Why or why not?**
       The output is not an error. `ls` did what the function was supposed to do with the given argument and the output reflected that. 
 
@@ -81,8 +77,6 @@ For each, include:
 
 
 ## 3. Share an example of using the command with a path to a file as an argument.
-![image](lab1-ex3.png)
-
 *`cd` with file path argument:*
 ![image](lab1-ex3-cd.png)
 - **What was the working directory when the command was run?**

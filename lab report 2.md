@@ -71,7 +71,7 @@ class StringServer {
 ![image](lab2-pt2-pub.png)
 
 **_Screenshot of the Terminal Interaction Logging into `ieng6`_**
-![image](lab2-pt2-priv.png)
+![image](lab2-pt2-login.png)
 
 ## PART THREE
 _Describe something you've learned from lab in week 2 or 3 that you didn't know before_

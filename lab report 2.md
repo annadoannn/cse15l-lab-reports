@@ -42,4 +42,7 @@ class StringServer {
 }
 ~~~
 ### Screenshot 1 of using /add-message
+![image](lab2-pt1-ss1.png)
 
+### Screenshot 2 of using /add-message
+![image](lab2-pt1-ss2.png)

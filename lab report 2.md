@@ -2,7 +2,7 @@
 **By Anna Doan**
 
 ## PART 1
-### My Code:
+### My StringServer.java code:
 ~~~
 import java.io.IOException;
 import java.net.URI;
@@ -41,3 +41,5 @@ class StringServer {
     }
 }
 ~~~
+### Screenshot 1 of using /add-message
+

@@ -41,8 +41,14 @@ class StringServer {
     }
 }
 ~~~
-**_Screenshot 1 of using /add-message_**
+**_Screenshot 1 of `/add-message_`**
 ![image](lab2-pt1-ss1.png)
+**- Which methods in your code are called?**
+  
+**- What are the relevant arguments to those methods, and the values of any relevant fields of the class?**
 
-**_Screenshot 2 of using /add-message_**
+**- How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.**
+
+
+**_Screenshot 2 of `/add-message_`**
 ![image](lab2-pt1-ss2.png)

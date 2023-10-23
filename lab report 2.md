@@ -41,8 +41,8 @@ class StringServer {
     }
 }
 ~~~
-**Screenshot 1 of using /add-message**
+**_Screenshot 1 of using /add-message_**
 ![image](lab2-pt1-ss1.png)
 
-**Screenshot 2 of using /add-message**
+**_Screenshot 2 of using /add-message_**
 ![image](lab2-pt1-ss2.png)

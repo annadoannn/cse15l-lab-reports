@@ -1,7 +1,7 @@
 # Lab 2 - Servers and SSH Keys
 **By Anna Doan**
 
-## PART 1
+## PART ONE
 ### My StringServer.java code:
 ~~~
 import java.io.IOException;
@@ -54,3 +54,25 @@ class StringServer {
 
 **_Screenshot 2 of `/add-message`_**
 ![image](lab2-pt1-ss2.png)
+**- Which methods in your code are called?**
+  
+**- What are the relevant arguments to those methods, and the values of any relevant fields of the class?**
+
+**- How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.**
+
+
+
+
+## PART TWO
+**_Screenshot of the Path to the Private Key_**
+![image](lab2-pt2-priv)
+
+**_Screenshot of the Path to the Public Key_**
+![image](lab2-pt2-pub)
+
+**_Screenshot of the Terminal Interaction Logging into `ieng6`_**
+![image](lab2-pt2-priv)
+
+## PART THREE
+_Describe something you've learned from lab in week 2 or 3 that you didn't know before_
+

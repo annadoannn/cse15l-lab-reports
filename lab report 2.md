@@ -44,7 +44,7 @@ class StringServer {
 **_Screenshot 1 of `/add-message`_**
 ![image](lab2-pt1-ss1.png)
 **- Which methods in your code are called?**
-  
+  The methods called in my code would be the `Handler class` with `URLHandler` implementation and its nested `handleRequest`, because the `URL` input feeds into the method, and outputs the result in the screenshot. 
 **- What are the relevant arguments to those methods, and the values of any relevant fields of the class?**
 
 **- How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.**
@@ -74,5 +74,5 @@ class StringServer {
 ![image](lab2-pt2-login.png)
 
 ## PART THREE
-_Describe something you've learned from lab in week 2 or 3 that you didn't know before_
+_Describe something you've learned from lab in week 2 or 3 that you didn't know before._
 

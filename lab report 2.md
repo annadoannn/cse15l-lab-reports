@@ -65,13 +65,13 @@ class StringServer {
 
 ## PART TWO
 **_Screenshot of the Path to the Private Key_**
-![image](lab2-pt2-priv)
+![image](lab2-pt2-priv.png)
 
 **_Screenshot of the Path to the Public Key_**
-![image](lab2-pt2-pub)
+![image](lab2-pt2-pub.png)
 
 **_Screenshot of the Terminal Interaction Logging into `ieng6`_**
-![image](lab2-pt2-priv)
+![image](lab2-pt2-priv.png)
 
 ## PART THREE
 _Describe something you've learned from lab in week 2 or 3 that you didn't know before_

@@ -63,7 +63,7 @@ When the server started up, there were empty arguments in the methods. Since we 
 ![image](lab2-pt1-ss2.png)
 **- Which methods in your code are called?**
 
-In this case, the method called would be `handleRequest`. The new query, `"is fun!"` with the `/add-message` path, would run `handleRequest` again since it's a valid input to the `url.getPath().contains()` condition I set in the code. 
+In this case, the method called would be `handleRequest`. The new query, `"is%20fun!"` with the `/add-message` path, would run `handleRequest` again since it's a valid input to the `url.getPath().contains()` condition I set in the code. Note: The `%20` indicates a space in the input.
 
   
 **- What are the relevant arguments to those methods, and the values of any relevant fields of the class?**

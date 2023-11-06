@@ -21,8 +21,6 @@
 
 
 - The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
-  
-Briefly describe why the fix addresses the issue.
 
 __Before the fix:__
 ~~~
@@ -76,6 +74,7 @@ static double averageWithoutLowest(double[] arr) {
 
 }
 ~~~
+__Briefly describe why the fix addresses the issue:__
 The fix addressed the issue that the code wouldn't take into account that there could be a possibility of having multiple lowest integers in an array, and will exclude them from the calculation. I modified the code to exclude only one occurrence of the lowest value instead of excluding all of the lowest values.
 
 

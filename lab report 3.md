@@ -159,7 +159,7 @@ grep: technical: Is a directory
 
 `grep -i` doesn't work on directories since `grep` alone is designed to search for patterns within files. 
 
-### 2. `-n` command line option:
+### 2. `-n` command-line option:
 [link to -n](https://www.freecodecamp.org/news/grep-command-in-linux-usage-options-and-syntax-examples/)
 __example of using `grep -n` on a file:__
 ~~~
@@ -212,3 +212,16 @@ grep: technical/911report: Is a directory
 ~~~
 
 `grep -n` doesn't work on a directory since it's intended for searching patterns within the content of files. 
+
+### `--color` command-line option:
+[link to --color](https://linuxcommando.blogspot.com/2007/10/grep-with-color-output.html)
+__example of using `grep --color` on a file:__
+~~~
+grep --color=always "adults" technical/biomed/1468-6708-3-1.txt
+~~~
+Output:
+![image](lab3-pt2-color.png)
+__example of using `grep --color` on a directory:__
+~~~
+
+~~~

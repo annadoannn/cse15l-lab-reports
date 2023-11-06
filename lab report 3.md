@@ -275,4 +275,122 @@ technical/biomed/1468-6708-3-1.txt:          older women could be efficient if Y
 technical/biomed/1468-6708-3-1.txt:          the outcome measure. That is, women who changed from
 technical/biomed/1468-6708-3-1.txt:        older adults, especially for women. Future efforts to
 ~~~
-The `grep -in` command displays all lines not 
+The `grep -in` command displays all lines that contain the specified text pattern as well as the relative path of where to find the text patterns. 
+
+__Example of using `grep -R` on a directory:__
+~~~
+grep -R "911" technical 
+~~~
+Output:
+~~~
+technical/government/About_LSC/commission_report.txt:S16911 (Oct. 17, 1986) (statement of Sen. Kennedy); March Comments
+technical/government/About_LSC/State_Planning_Special_Report.txt:19881989199019911992199319941995199619971998199920002001
+technical/government/Env_Prot_Agen/tech_adden.txt:children, 911
+technical/government/Gen_Account_Office/Oct15-1999_gg00026t.txt:512-9110, and for information regarding GAO's work on GSA, please
+technical/government/Gen_Account_Office/og96034.txt:Commission's Rules To Ensure Compatibility with Enhanced 911
+technical/government/Gen_Account_Office/og96034.txt:Emergency Calling Systems (Wireless E911 Rules)
+technical/government/Gen_Account_Office/og96034.txt:Rules To Ensure Compatibility with Enhanced 911 Emergency Calling
+technical/government/Gen_Account_Office/og96034.txt:Systems (Wireless E911 Rules)" (FCC-96-264). We received the rule
+technical/government/Gen_Account_Office/og96034.txt:requirements for basic wireless 911 services and establishes a
+technical/government/Gen_Account_Office/og96034.txt:framework for improving wireless 911 services. The Commission
+technical/government/Gen_Account_Office/og96034.txt:For basic wireless 911 services, the Order requires covered
+technical/government/Gen_Account_Office/og96034.txt:carriers to transmit to public safety personnel all 911 calls
+technical/government/Gen_Account_Office/og96034.txt:transmitting wireless 911 calls made by hearing-or speech-impaired
+technical/government/Gen_Account_Office/og96034.txt:The Order also requires covered carriers to offer certain 911
+technical/government/Gen_Account_Office/og96034.txt:cell site receiving a 911 call. Within the next 5 years, the Order
+technical/government/Gen_Account_Office/og96034.txt:incorporated into enhanced 911 systems in the future.
+technical/government/Gen_Account_Office/og96034.txt:OF THE COMMISSION'S RULES TO ENSURE COMPATIBILITY WITH ENHANCED 911
+technical/government/Gen_Account_Office/og96034.txt:EMERGENCY CALLING SYSTEMS (WIRELESS E911 RULES) (FCC-96-264)
+technical/government/Gen_Account_Office/og96034.txt:of 911 and enhanced 911 services through certain technologies.
+technical/government/Gen_Account_Office/og96034.txt:Enhanced 911 Emergency Calling Systems, CC Docket No. 94102, 9 FCC
+technical/government/Gen_Account_Office/og96034.txt:analysis describes how this Report and Order will make 911 and
+technical/government/Gen_Account_Office/og96034.txt:enhanced 911 services for users of wireless telephones more widely
+technical/government/Gen_Account_Office/og96034.txt:comments and reply comments regarding the wireless 911 issues. The
+technical/government/Media/Law-school_grads.txt:Denver and $24,911 elsewhere in the state.
+technical/government/Media/Marylands_Legal_Aid.txt:founded in 1911 and today recognized nationally for its leadership
+technical/plos/pmed.0020034.txt:        for hay fever in 1911, the studies on hay fever prevalence by Ratner and Silverman in New
+technical/biomed/gb-2003-4-4-r24.txt:        TNF locus (MIM *191160) has been
+technical/biomed/gb-2003-4-5-r34.txt:          = 0.911 and 0.910 using average linkage or complete
+technical/biomed/gb-2003-4-4-r26.txt:          AW589050-AW589115, AW735503-AW735730, AW782981-AW783662,
+technical/biomed/gb-2001-2-8-research0030.txt:          aat sequences are AY039113,
+technical/biomed/1471-2164-3-15.txt:          flanked by inverted repeats, specifically, Us (1911 bp,
+technical/biomed/1471-2407-2-17.txt:          by end point cytopathogenic effect (CPE) assay on 911
+technical/biomed/gb-2002-3-12-research0080.txt:          AF132565-AF132567, AF160911-AF160913,
+technical/biomed/gb-2002-3-12-research0080.txt:          AY070911-AY070913, AY071674,
+technical/biomed/1471-2199-3-12.txt:          on 911 cells [ 26 ] . Viral particles were determined by
+technical/biomed/1471-2121-3-2.txt:        accession number Q09118) [ 2 ] was amplified by PCR using
+technical/biomed/1471-2199-4-4.txt:          on 911 cells [ 19 ] . Viral particles were determined by
+technical/biomed/rr196.txt:          numbers MA3-91 and MA3-911; Affinity BioReagents, Inc.,
+technical/biomed/1471-2164-2-7.txt:          and AI591193) that were identical at the 
+technical/biomed/1471-2156-4-9.txt:          other predicted F-box containing genes (CG4911, CG3428,
+technical/911report/chapter-13.5.txt:                received by civilians in the towers based on (1) calls to NYPD 911 from or
+technical/911report/chapter-13.5.txt:                September 11, 2001 (hereafter "Commission analysis of 911/PAPD calls"). Everyone
+technical/911report/chapter-13.5.txt:                Commission analysis of 911/PAPD calls; Civilian interview 17 (May 11, 2004);
+technical/911report/chapter-13.5.txt:                analysis of 911/PAPD calls; Port Authority transcripts of recorded Port Authority
+technical/911report/chapter-13.5.txt:            32. Commission analysis of 911/PAPD calls.
+technical/911report/chapter-13.5.txt:                2004); Civilian interview 14 (Apr. 7, 2004); Commission analysis of 911/PAPD calls.
+technical/911report/chapter-13.5.txt:                7 (Mar. 22, 2004); Commission analysis of 911/PAPD calls. For some emergency
+technical/911report/chapter-13.5.txt:            36. For callers being disconnected, see Commission analysis of 911/PAPD calls. For
+technical/911report/chapter-13.5.txt:                and terminations, see Commission analysis of 911/PAPD calls.
+technical/911report/chapter-13.5.txt:                callers, see Commission analysis of 911/PAPD calls. For standard operating
+technical/911report/chapter-13.5.txt:                911/PAPD calls. For operators departing from protocol, see ibid.
+technical/911report/chapter-13.5.txt:            40. Commission analysis of 911/PAPD calls; Port Authority transcripts of recorded
+technical/911report/chapter-13.5.txt:            43. For smoke rising and its effect, see Commission analysis of 911/PAPD calls. For
+technical/911report/chapter-13.5.txt:                911/PAPD calls; Port Authority transcripts of recorded Port Authority calls and
+technical/911report/chapter-13.5.txt:            67. Commission analysis of 911/PAPD calls; NYPD recordings, City Wide 1, Special
+technical/911report/chapter-13.5.txt:                interview 4 (Mar. 16, 2004); Commission analysis of 911/PAPD calls. For events in
+technical/911report/chapter-13.5.txt:                (Mar. 16, 2004); Civilian interview 3 (May 4, 2004); Commission analysis of 911/PAPD
+technical/911report/chapter-13.5.txt:            87. For conditions in the 90s and 100s, see Commission analysis of 911/PAPD calls.
+technical/911report/chapter-13.5.txt:                floors, see Commission analysis of 911/PAPD calls.
+technical/911report/chapter-13.5.txt:            88. For the callers, see Commission analysis of 911/PAPD calls. There are many
+technical/911report/chapter-13.5.txt:                from floors higher up as well. It is not known, however, whether 911 callers had a
+technical/911report/chapter-13.5.txt:            89. Commission analysis of 911/PAPD calls.
+technical/911report/chapter-13.5.txt:                2004); Commission analysis of 911/PAPD calls.
+technical/911report/chapter-13.5.txt:            91. Commission analysis of 911/PAPD calls.
+technical/911report/chapter-13.5.txt:                Commission analysis of 911/PAPD calls.
+technical/911report/chapter-13.5.txt:            96. Commission analysis of 911/PAPD calls. It is not clear whether callers from below
+technical/911report/chapter-13.5.txt:                simply calling to seek advice. In any case, the 911 operators and FDNY dispatchers
+technical/911report/chapter-13.5.txt:            150. For the 911 call, see Commission analysis of 911/PAPD calls. For the inaccurate
+technical/911report/chapter-13.5.txt:            157. For information about 911 calls, see Commission analysis of 911/PAPD calls. For
+technical/911report/chapter-13.5.txt:                www.whitehouse.gov/news/releases/2001/09/20010911-16.html).
+technical/911report/chapter-9.txt:                Twin Towers. The 911 emergency call system was overwhelmed. The general evacuation
+technical/911report/chapter-9.txt:                (which was not monitored by a dispatcher).17 The NYPD also supervised the city's 911
+technical/911report/chapter-9.txt:                of emergency response. When a 911 call concerned a fire, it was transferred to FDNY
+technical/911report/chapter-9.txt:                which had a center in each of the five boroughs. All 911 calls concerning fire
+technical/911report/chapter-9.txt:            Civilians, Fire Safety Personnel, and 911 Calls
+technical/911report/chapter-9.txt:            Within minutes, New York City's 911 system was flooded with eyewitness accounts of
+technical/911report/chapter-9.txt:                had been advised to do in fire drills. Many called 911.
+technical/911report/chapter-9.txt:            The 911 system was not equipped to handle the enormous volume of calls it received.
+technical/911report/chapter-9.txt:                Some callers were unable to connect with 911 operators, receiving an "all circuits
+technical/911report/chapter-9.txt:                emergencies to be transferred from 911 operators to FDNY dispatch operators in the
+technical/911report/chapter-9.txt:            The 911 operators and FDNY dispatchers had no information about either the location
+technical/911report/chapter-9.txt:            These critical decisions were not conveyed to 911 operators or to FDNY dispatchers.
+technical/911report/chapter-9.txt:                as advised by 911 operators. Others simply continued to work or delayed to collect
+technical/911report/chapter-9.txt:            The 911 operators and FDNY dispatchers were not advised that rooftop rescues were not
+technical/911report/chapter-9.txt:            Civilians, Fire Safety Personnel, and 911 Calls
+technical/911report/chapter-9.txt:                calling 911 for direction.
+technical/911report/chapter-9.txt:            The 911 system remained plagued by the operators' lack of awareness of what was
+technical/911report/chapter-9.txt:            In addition, the 911 system struggled with the volume of calls and rigid standard
+technical/911report/chapter-9.txt:                impact zone and who stopped on the 31st floor in order to call 911, I told them when
+technical/911report/chapter-9.txt:            Very few 911 calls were received from floors below the impact, but at least one
+technical/911report/chapter-9.txt:                oxygen was running out. The last known 911 call from this location came at
+technical/911report/chapter-9.txt:                repeated references in calls to 911 to having heard "announcements" to go down the
+technical/911report/chapter-9.txt:            Those who called 911 from floors below the impact were generally advised to remain in
+technical/911report/chapter-9.txt:                fire was above or below them, specifically asking if 911 operators had any
+technical/911report/chapter-9.txt:                could only have come via 911. These workers were not trapped, yet unlike most
+technical/911report/chapter-9.txt:                that 100 people were reported via 911 to be trapped on the 105th floor of the North
+technical/911report/chapter-9.txt:            Interaction of 911 Calls and NYPD Operations.
+technical/911report/chapter-9.txt:            At 9:37, a civilian on the 106th floor of the South Tower reported to a 911 operator
+technical/911report/chapter-9.txt:                conveyed inaccurately by the 911 operator to an NYPD dispatcher. The dispatcher
+technical/911report/chapter-9.txt:                further confused the substance of the 911 call by telling NYPD officers at the WTC
+technical/911report/chapter-9.txt:                complex that "the 106th floor is crumbling" at 9:52, 15 minutes after the 911 call
+technical/911report/chapter-9.txt:            The 911 calls placed from most locations in the North Tower grew increasingly
+technical/911report/chapter-9.txt:                they will encounter during descent. Impact of 911 Calls on Evacuation. The NYPD's
+technical/911report/chapter-9.txt:                911 operators and FDNY dispatch were not adequately integrated into the emergency
+technical/911report/chapter-9.txt:                response. In several ways, the 911 system was not ready to cope with a major
+technical/911report/chapter-9.txt:                911 operators and FDNY dispatchers, who for the next hour often continued to advise
+technical/911report/chapter-9.txt:                impact zones. Nor were 911 operators or FDNY dispatchers advised that rooftop
+technical/911report/chapter-9.txt:                upper floors of the South Tower who called 911 and were not told that their only
+technical/911report/chapter-9.txt:                disasters, it is important to integrate those taking 911 calls into the emergency
+technical/911report/chapter-9.txt:                receive and combine information from all first responders-including 911 operators.
+~~~

@@ -21,7 +21,9 @@
 
 
 - The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
+  
 Briefly describe why the fix addresses the issue.
+
 __Before the fix:__
 ~~~
   static double averageWithoutLowest(double[] arr) {

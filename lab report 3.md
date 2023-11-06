@@ -15,7 +15,7 @@ give 2 examples of using it on files and directories from ./technical. Show each
 
 
 ### 1. `-i` command-line option
-[link to -i source](https://www.freecodecamp.org/news/grep-command-in-linux-usage-options-and-syntax-examples/)
+[link to -i ](https://www.freecodecamp.org/news/grep-command-in-linux-usage-options-and-syntax-examples/)
 
 
 __example of using `grep -i` on file:__

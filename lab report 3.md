@@ -161,6 +161,8 @@ grep: technical: Is a directory
 
 ### 2. `-n` command-line option:
 [Link to -n](https://www.freecodecamp.org/news/grep-command-in-linux-usage-options-and-syntax-examples/)
+
+
 __Example of using `grep -n` on a file:__
 ~~~
 grep -n "We" technical/911report/preface.txt
@@ -215,6 +217,8 @@ grep: technical/911report: Is a directory
 
 ### 3. `--color` command-line option:
 [Link to --color](https://linuxcommando.blogspot.com/2007/10/grep-with-color-output.html)
+
+
 __Example of using `grep --color` on a file:__
 ~~~
 grep --color=always "adults" technical/biomed/1468-6708-3-1.txt
@@ -237,6 +241,8 @@ Unfortunately, `grep --color` does not work on directories since it looks for te
 
 ### 4. `-R` command-line option:
 [Link to -R](https://www.ibm.com/docs/sk/aix/7.1?topic=g-grep-command)
+
+
 __Example of using `grep -R` on a file:__
 ~~~
 grep -R "women" technical/biomed/1468-6708-3-1.txt

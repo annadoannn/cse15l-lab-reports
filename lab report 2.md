@@ -87,7 +87,7 @@ _Note: I covered the fingerprint due to privacy reasons. The red underline is th
 
 
 **_Screenshot of the Path to the Public Key_**
-![image](lab2-pt2-pub.png)
+![image](lab2-pub.png)
 The path to the public key is located in `/Users/annadoan/.ssh/id_rsa.pub`.
 
 

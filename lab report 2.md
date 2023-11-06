@@ -68,7 +68,7 @@ In this case, the method called would be `handleRequest`. The new query, `"is fu
   
 **- What are the relevant arguments to those methods, and the values of any relevant fields of the class?**
 
-The relevant arguments to these methods would be in the `handleRequest` method, with the `url.getPath().contains("/add-message")` line as it checks for the `\add-message` parameter. The values of the relevant fields are now `num` is 2, and `str` is now "2. is fun!" due to the `str += num +". " + parameters[1] + "\n"` line. 
+The relevant arguments to these methods would be in the `handleRequest` method with `/add-message?s=is%20fun!` as a valid input for the method. The `%20` indicates a space in the input. The `url.getPath().contains("/add-message")` line as it checks for the `\add-message` parameter. The values of the relevant fields are now `num` is 2, and `str` is now "2. is fun!" due to the `str += num +". " + parameters[1] + "\n"` line. 
 
 
 **- How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.**
@@ -79,10 +79,12 @@ Since this case is run after Screenshot 1, the `num` variable increments, and ch
 
 ## PART TWO
 **_Screenshot of the Path to the Private Key_**
-![image](lab2-pt2-priv.png)
-_Note: I covered the private key due to privacy reasons_
+![image](lab2-priv.png)
+![image](lab2-priv2.png)
 
 The path to the private key is located in `/Users/annadoan/.ssh/id_rsa`.
+_Note: I covered the fingerprint due to privacy reasons. The red underline is the path_
+
 
 **_Screenshot of the Path to the Public Key_**
 ![image](lab2-pt2-pub.png)

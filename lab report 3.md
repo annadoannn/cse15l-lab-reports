@@ -236,7 +236,7 @@ grep: technical/biomed: Is a directory
 Unfortunately, `grep --color` does not work on directories since it looks for text patterns within a file. The output returns that the path is a directory.
 
 ### 4. `-R` command-line option:
-[Link to -in](https://www.ibm.com/docs/sk/aix/7.1?topic=g-grep-command)
+[Link to -R](https://www.ibm.com/docs/sk/aix/7.1?topic=g-grep-command)
 __Example of using `grep -R` on a file:__
 ~~~
 grep -R "women" technical/biomed/1468-6708-3-1.txt
@@ -275,7 +275,7 @@ technical/biomed/1468-6708-3-1.txt:          older women could be efficient if Y
 technical/biomed/1468-6708-3-1.txt:          the outcome measure. That is, women who changed from
 technical/biomed/1468-6708-3-1.txt:        older adults, especially for women. Future efforts to
 ~~~
-The `grep -in` command displays all lines that contain the specified text pattern as well as the relative path of where to find the text patterns. 
+The `grep -R` command displays all lines that contain the specified text pattern as well as the relative path of where to find the text patterns. 
 
 __Example of using `grep -R` on a directory:__
 ~~~

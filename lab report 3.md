@@ -82,7 +82,7 @@ The fix addressed the issue that the code wouldn't take into account that there 
 ## PART TWO - RESEARCHING COMMANDS
 I chose `grep`.
 ### Find four command-line options or alternate ways to use the `grep` command.
-give 2 examples of using it on files and directories from ./technical. Show each example as a code block that shows the command and its output, and write a sentence or two about what it’s doing and why it’s useful.
+Give 2 examples of using it on files and directories from ./technical. Show each example as a code block that shows the command and its output, and write a sentence or two about what it’s doing and why it’s useful.
 
 
 ### 1. `-i` command-line option
@@ -157,7 +157,7 @@ Output:
 grep: technical: Is a directory
 ~~~
 
-`grep -i` doesn't work on directories since `grep` alone is designed to search for patterns within files. The output returns that the path is a directory.
+`grep -i` doesn't work on directories since the `-i` command is designed to search for patterns within files. The output returns that the path is a directory.
 
 ### 2. `-n` command-line option:
 [Link to -n](https://www.freecodecamp.org/news/grep-command-in-linux-usage-options-and-syntax-examples/)
@@ -200,7 +200,7 @@ Output:
 103:                considered the views of others. We hope our report will encourage our fellow
 ~~~
 
-`grep -n` returns the line numbers and the line that contains the specified text pattern. It's useful if we needed to find a specific line to go back to and edit its contents. 
+`grep -n` returns the line and the line text that contains the specified text pattern. It's useful if we need to find a specific line to go back to and edit its contents. 
 
 __Example of using `grep -n` on a directory:__
 ~~~
@@ -233,7 +233,7 @@ Output:
 grep: technical/biomed: Is a directory
 ~~~
 
-Unfortunately, `grep --color` does not work on directories since they look for text patterns within a file. The output returns that the path is a directory.
+Unfortunately, `grep --color` does not work on directories since it looks for text patterns within a file. The output returns that the path is a directory.
 
 ### 4. `-R` command-line option:
 [Link to -in](https://www.ibm.com/docs/sk/aix/7.1?topic=g-grep-command)
@@ -394,4 +394,4 @@ technical/911report/chapter-9.txt:                upper floors of the South Towe
 technical/911report/chapter-9.txt:                disasters, it is important to integrate those taking 911 calls into the emergency
 technical/911report/chapter-9.txt:                receive and combine information from all first responders-including 911 operators.
 ~~~
-`grep -R` searches through all the directories recursively that contain the specified text pattern. In our output, it displayed every instance of when `911` was used in all the directories and also returned the relative path. 
+`grep -R` searches through all the directories recursively that contain the specified text pattern. In our output, it displayed every instance of when `911` was used in all the directories and also returned the relative path correlating to the text. 

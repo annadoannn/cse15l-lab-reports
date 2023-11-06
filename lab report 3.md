@@ -9,7 +9,7 @@ Provide:
 Briefly describe why the fix addresses the issue.
 
 ## PART TWO - RESEARCHING COMMANDS
-_I chose `grep`._
+I chose `grep`.
 ### Find four command-line options or alternate ways to use the `grep` command.
 give 2 examples of using it on files and directories from ./technical. Show each example as a code block that shows the command and its output, and write a sentence or two about what it’s doing and why it’s useful.
 

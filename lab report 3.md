@@ -394,3 +394,4 @@ technical/911report/chapter-9.txt:                upper floors of the South Towe
 technical/911report/chapter-9.txt:                disasters, it is important to integrate those taking 911 calls into the emergency
 technical/911report/chapter-9.txt:                receive and combine information from all first responders-including 911 operators.
 ~~~
+`grep -R` searches through all the directories recursively that contain the specified text pattern. In our output, it displayed every instance of when `911` was used in all the directories and also returned the relative path. 

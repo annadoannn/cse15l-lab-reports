@@ -1,4 +1,5 @@
 # Lab Report 3 -- Bugs and Commands
+__By Anna Doan__
 ## PART ONE - BUGS
 - A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown)
 ~~~

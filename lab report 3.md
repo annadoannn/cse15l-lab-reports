@@ -128,3 +128,16 @@ output:
 100:                most important, whose implementation can make the greatest difference. We came into
 103:                considered the views of others. We hope our report will encourage our fellow
 ~~~
+
+`grep -n` returns the line numbers and the line that contains the specified text pattern. It's useful if we needed to find a specific line to go back to and edit its contents. 
+
+__example of using `grep -n` on a directory:__
+~~~
+grep -n "We" technical/911report
+~~~
+output: 
+~~~
+grep: technical/911report: Is a directory
+~~~
+
+`grep -n` doesn't work on a directory since it's intended for searching patterns within the content of files. 

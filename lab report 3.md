@@ -15,3 +15,7 @@ give 2 examples of using it on files and directories from ./technical. Show each
 
 
 ### 1. `-i` command-line option
+__example of using `grep -i` on file from directories:__
+~~~~
+grep -i "emergency" technical/911report/chapter-9.txt
+~~~~

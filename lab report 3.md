@@ -88,4 +88,43 @@ grep: technical: Is a directory
 
 `grep -i` doesn't work on directories since `grep` alone is designed to search for patterns within files. 
 
-
+### 2. `-n` command line option:
+[link to -n](https://www.freecodecamp.org/news/grep-command-in-linux-usage-options-and-syntax-examples/)
+__example of using `grep -n` on a file:__
+~~~
+grep -n "We" technical/911report/preface.txt
+~~~
+output:
+~~~
+5:            We present the narrative of this report and the recommendations that flow from it to
+10:            We have come together with a unity of purpose because our nation demands it.
+26:                our mandate. We have sought to be independent, impartial, thorough, and nonpartisan.
+33:            We learned about an enemy who is sophisticated, patient, disciplined, and lethal. The
+39:            We learned that the institutions charged with protecting our borders, civil aviation,
+41:                adjust their policies, plans, and practices to deter or defeat it. We learned of
+43:                between and within agencies. We learned of the pervasive problems of managing and
+47:                We hope that the terrible losses chronicled in this report can create something
+50:                meet the challenges now confronting us. We need to design a balanced strategy for
+52:                the same time protecting our country against future attacks. We have been forced to
+59:                Commissioners, whose dedication to this task has been profound. We have reasoned
+61:                dialogue. We want to express our considerable respect for the intellect and judgment
+63:            We want to thank the Commission staff. The dedicated professional staff, headed by
+68:                have been superb. We thank the Congress and the President. Executive branch agencies
+69:                have searched records and produced a multitude of documents for us. We thank
+73:                assistance. We owe a huge debt to their investigative labors, painstaking attention
+74:                to detail, and readiness to share what they have learned. We have built on the work
+76:                fine work helped us get started. We thank the City of New York for assistance with
+79:            We conclude this list of thanks by coming full circle: We thank the families of 9/11,
+83:            We want to note what we have done, and not done. We have endeavored to provide the
+87:                issues and organizations, we are conscious of our limits. We have not interviewed
+89:                inevitably will come to light. We present this report as a foundation for a better
+91:            We have listened to scores of overwhelming personal tragedies and astounding acts of
+92:                heroism and bravery. We have examined the staggering impact of the events of 9/11 on
+93:                the American people and their amazing resilience and courage as they fought back. We
+95:                preparing to respond if it becomes necessary. We emerge from this investigation with
+97:                for the American people. We recognize the formidable challenges that lie ahead.
+98:            We also approach the task of recommendations with humility. We have made a limited
+99:                number of them. We decided consciously to focus on recommendations we believe to be
+100:                most important, whose implementation can make the greatest difference. We came into
+103:                considered the views of others. We hope our report will encourage our fellow
+~~~

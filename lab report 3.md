@@ -22,6 +22,60 @@
 
 - The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
 Briefly describe why the fix addresses the issue.
+__Before the fix:__
+~~~
+  static double averageWithoutLowest(double[] arr) {
+    if(arr.length < 2) { return 0.0; }
+    double lowest = arr[0];
+    for(double num: arr) {
+      if(num < lowest) { lowest = num; }
+    }
+    double sum = 0;
+    for(double num: arr) {
+      if(num != lowest) { sum += num; }
+    }
+    return sum / (arr.length - 1);
+  }
+~~~
+
+__After the fix:__
+~~~
+static double averageWithoutLowest(double[] arr) {
+    if (arr.length <= 1) {
+        return 0.0;
+    }
+
+    double lowest = arr[0];
+    double sum = 0;
+    int count = 0;
+
+    for (double num : arr) {
+        if (num < lowest) {
+            lowest = num;
+        }
+    }
+
+    boolean excludedOneLowest = false;
+    for (double num : arr) {
+        if (num == lowest && !excludedOneLowest) {
+            excludedOneLowest = true;
+        } else {
+            sum += num;
+            count++;
+        }
+    }
+
+    if (count == 0) {
+        return 0.0; // All elements in the array are the same (the lowest)
+    }
+
+    return sum / count;
+  }
+
+}
+~~~
+The fix addressed the issue that the code wouldn't take into account that there could be a possibility of having multiple lowest integers in an array, and will exclude them from the calculation. I modified the code to exclude only one occurrence of the lowest value instead of excluding all of the lowest values.
+
 
 ## PART TWO - RESEARCHING COMMANDS
 I chose `grep`.

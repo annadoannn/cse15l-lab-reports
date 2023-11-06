@@ -86,15 +86,15 @@ give 2 examples of using it on files and directories from ./technical. Show each
 
 
 ### 1. `-i` command-line option
-[link to -i ](https://www.freecodecamp.org/news/grep-command-in-linux-usage-options-and-syntax-examples/)
+[Link to -i ](https://www.freecodecamp.org/news/grep-command-in-linux-usage-options-and-syntax-examples/)
 
 
-__example of using `grep -i` on a file:__
+__Example of using `grep -i` on a file:__
 ~~~~
 grep -i "emergency" technical/911report/chapter-9.txt
 ~~~~
 
-output:
+Output:
 ~~~
 Emergency response is a product of preparedness. On the morning of September 11,
                 local public servants, especially the first responders: fire, police, emergency
@@ -148,24 +148,24 @@ Emergency response is a product of preparedness. On the morning of September 11,
 
 Using `grep -i`, we can command it to return lines containing the specified text pattern from the specified file, regardless of whether the pattern is in uppercase or lowercase. This is helpful for searching for specific keywords or text, and `grep -i` allows you to find all occurrences of those keywords, regardless of case sensitivity. 
 
-__example of using `grep -i` on a directory:__
+__Example of using `grep -i` on a directory:__
 ~~~
 grep -i "word" technical
 ~~~
-output:
+Output:
 ~~~
 grep: technical: Is a directory
 ~~~
 
-`grep -i` doesn't work on directories since `grep` alone is designed to search for patterns within files. 
+`grep -i` doesn't work on directories since `grep` alone is designed to search for patterns within files. The output returns that the path is a directory.
 
 ### 2. `-n` command-line option:
-[link to -n](https://www.freecodecamp.org/news/grep-command-in-linux-usage-options-and-syntax-examples/)
-__example of using `grep -n` on a file:__
+[Link to -n](https://www.freecodecamp.org/news/grep-command-in-linux-usage-options-and-syntax-examples/)
+__Example of using `grep -n` on a file:__
 ~~~
 grep -n "We" technical/911report/preface.txt
 ~~~
-output:
+Output:
 ~~~
 5:            We present the narrative of this report and the recommendations that flow from it to
 10:            We have come together with a unity of purpose because our nation demands it.
@@ -202,26 +202,77 @@ output:
 
 `grep -n` returns the line numbers and the line that contains the specified text pattern. It's useful if we needed to find a specific line to go back to and edit its contents. 
 
-__example of using `grep -n` on a directory:__
+__Example of using `grep -n` on a directory:__
 ~~~
 grep -n "We" technical/911report
 ~~~
-output: 
+Output: 
 ~~~
 grep: technical/911report: Is a directory
 ~~~
 
-`grep -n` doesn't work on a directory since it's intended for searching patterns within the content of files. 
+`grep -n` doesn't work on a directory since it's intended for searching patterns within the content of files. The output returns that the path is a directory.
 
-### `--color` command-line option:
-[link to --color](https://linuxcommando.blogspot.com/2007/10/grep-with-color-output.html)
-__example of using `grep --color` on a file:__
+### 3. `--color` command-line option:
+[Link to --color](https://linuxcommando.blogspot.com/2007/10/grep-with-color-output.html)
+__Example of using `grep --color` on a file:__
 ~~~
 grep --color=always "adults" technical/biomed/1468-6708-3-1.txt
 ~~~
 Output:
 ![image](lab3-pt2-color.png)
-__example of using `grep --color` on a directory:__
+`grep --color` returns lines that contain the specified text pattern but additionally, highlights the text pattern in red. This could be useful to help visualize where text patterns arise and give the coder a visual aid. 
+
+
+__Example of using `grep --color` on a directory:__
+~~~
+grep --color=always "adults" technical/biomed
+~~~
+Output:
+~~~
+grep: technical/biomed: Is a directory
 ~~~
 
+Unfortunately, `grep --color` does not work on directories since they look for text patterns within a file. The output returns that the path is a directory.
+
+### 4. `-R` command-line option:
+[Link to -in](https://www.ibm.com/docs/sk/aix/7.1?topic=g-grep-command)
+__Example of using `grep -R` on a file:__
 ~~~
+grep -R "women" technical/biomed/1468-6708-3-1.txt
+~~~
+Output: 
+~~~
+technical/biomed/1468-6708-3-1.txt:          women. We calculated two sets of adjusted values, as
+technical/biomed/1468-6708-3-1.txt:          (6.52 years for women or 6.06 for men). That is, a
+technical/biomed/1468-6708-3-1.txt:        thirds of the men and a third of the women were former
+technical/biomed/1468-6708-3-1.txt:        smokers. Black women had a higher mean BMI and higher
+technical/biomed/1468-6708-3-1.txt:        10 pounds in the past year; white women were least
+technical/biomed/1468-6708-3-1.txt:        to age 73. For example, black women averaged 6.3 YOL, but
+technical/biomed/1468-6708-3-1.txt:        lost to death (7 minus YOL). White women had the most YHL
+technical/biomed/1468-6708-3-1.txt:        and black men the fewest; black women had the most years of
+technical/biomed/1468-6708-3-1.txt:        the most years to death (1.3 out of 7) while white women
+technical/biomed/1468-6708-3-1.txt:        and 4). For example, YOL for women, adjusted for age, race,
+technical/biomed/1468-6708-3-1.txt:        and smoking, averaged 6.0 years for women with a baseline
+technical/biomed/1468-6708-3-1.txt:        BMI below 18.5, but averaged 6.6 years for women with a BMI
+technical/biomed/1468-6708-3-1.txt:        YOL for women (the uppermost curve on Figure 1) averaged
+technical/biomed/1468-6708-3-1.txt:        between BMI and YOL for BMI above 20. Underweight women
+technical/biomed/1468-6708-3-1.txt:        averaged about .25 fewer YOL than other women (p < .05
+technical/biomed/1468-6708-3-1.txt:        women and men. Women who were normal or overweight averaged
+technical/biomed/1468-6708-3-1.txt:        about 4.9 YHL. The YHL for underweight or obese women was
+technical/biomed/1468-6708-3-1.txt:        women than for men in the normal and overweight groups, but
+technical/biomed/1468-6708-3-1.txt:        being compared. For example, underweight women averaged
+technical/biomed/1468-6708-3-1.txt:        4.50 YHL compared to 4.92 for normal women, and the common
+technical/biomed/1468-6708-3-1.txt:        treatment to help underweight women achieve normal weight
+technical/biomed/1468-6708-3-1.txt:        about 93 women per treatment arm, if 7-year YHL were the
+technical/biomed/1468-6708-3-1.txt:        sizes for women, and are significantly different from zero.
+technical/biomed/1468-6708-3-1.txt:        for women showed a large and significant effect size. Thus,
+technical/biomed/1468-6708-3-1.txt:        an intervention to improve the health of underweight women
+technical/biomed/1468-6708-3-1.txt:        make obese women comparable to normal women could be
+technical/biomed/1468-6708-3-1.txt:        overweight (for men or women) or obese (for men) affects
+technical/biomed/1468-6708-3-1.txt:          older men and 30-35 for older women. In Figure 1, the
+technical/biomed/1468-6708-3-1.txt:          older women could be efficient if YHL (but not YOL) was
+technical/biomed/1468-6708-3-1.txt:          the outcome measure. That is, women who changed from
+technical/biomed/1468-6708-3-1.txt:        older adults, especially for women. Future efforts to
+~~~
+The `grep -in` command displays all lines not 

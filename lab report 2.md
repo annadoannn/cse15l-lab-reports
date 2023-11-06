@@ -45,12 +45,12 @@ class StringServer {
 ![image](lab2-pt1-ss1.png)
 **- Which methods in your code are called?**
 
-The methods called in my code would be the `Handler` class with `URLHandler` implementation and its nested `handleRequest`, because the `URI` input feeds into the method, and outputs the result in the screenshot. 
+The method called in my code would be `handleRequest`, since `/add-message?s=CSE15L` is a valid input for this method. 
 
   
 **- What are the relevant arguments to those methods, and the values of any relevant fields of the class?**
 
-The relevant arguments to the `Handler` class and `handleRequest` method would be a URI. However, the rest of the relevant argument would lay in the `/add-message?s= <. . .>` path and query. That would directly get fed to the `handleRequest` method, where the string following the `=` would be part of the value of the `str` variable, and get outputted in the server. I say part of my `str` variable, because my `str` is written as a combination of variables and strings. My `num` variable would also hold a new value since it increments every time a new message is added. We see that here with the `"CSE15L"` input.
+The relevant arguments to the `handleRequest` method would be the `if (url.getPath().contains("/add-message"))' code block. It checks for the `/add-message?` path, otherwise it would return a `404 Not Found!` message. The values of the relevant fields would be `1. CSE15L\n` when it got passed into the `add-message` function. 
 
 
 **- How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.**

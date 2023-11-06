@@ -15,7 +15,9 @@ give 2 examples of using it on files and directories from ./technical. Show each
 
 
 ### 1. `-i` command-line option
-[link to -i](https://www.freecodecamp.org/news/grep-command-in-linux-usage-options-and-syntax-examples/)
+[link to -i source](https://www.freecodecamp.org/news/grep-command-in-linux-usage-options-and-syntax-examples/)
+
+
 __example of using `grep -i` on file:__
 ~~~~
 grep -i "emergency" technical/911report/chapter-9.txt
@@ -72,3 +74,18 @@ Emergency response is a product of preparedness. On the morning of September 11,
                 not "responsible for the management of the City's response to the emergency," as the
             In May 2004, New York City adopted an emergency response plan that expressly
 ~~~
+
+Using `grep -i`, we can command it to return lines containing the specified text pattern from the specified file, regardless of whether the pattern is in uppercase or lowercase. This is helpful for searching for specific keywords or text, and `grep -i` allows you to find all occurrences of those keywords, regardless of case sensitivity. 
+
+__example of using `grep -i` on directories:__
+~~~
+grep -i "word" technical
+~~~
+output:
+~~~
+grep: technical: Is a directory
+~~~
+
+`grep -i` doesn't work on directories since `grep` alone is designed to search for patterns within files. 
+
+

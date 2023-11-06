@@ -1,4 +1,5 @@
 # Lab Report 3 -- Bugs and Commands
+By Anna Doan
 ## PART ONE - BUGS
 Provide:
 

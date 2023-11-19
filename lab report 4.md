@@ -27,16 +27,16 @@ Then, I typed `<shift+g>` and proceeded with `<up><up><up><up><up><up> <shift+e>
 Then, I typed `<:wq> <enter>` to save and exit out of vim. 
 
 ## Step 8 -- Run the tests, demonstrating that they now succeed
-I ran the test again by typing `bash test.sh`. 
+I ran the test again by typing `bash test.sh<enter>`. 
 ![image](lab4-vim4.png)
 It shows that the tests succeeded. 
 
 
 ## Step 9 -- Commit and push the resulting change to your Github account (you can pick any commit message!)
-I typed `git add ListExamples.java`.
+I typed `git add ListExamples.java<enter>`.
 ![image](lab4-git1.png)
 
-Then, I typed `git commit -m "it works now"` for a commit message, and proceeded to push the change into Github by typing `git push`.
+Then, I typed `git commit -m "it works now"<enter>` for a commit message, and proceeded to push the change into Github by typing `git push<enter>`.
 ![image](lab4-git2.png)
 
 

@@ -16,5 +16,27 @@ I typed `cd lab7<enter>` then `bash test.sh<enter>`.
 ![image](lab4-bash.png)
 
 ## Step 7 -- Edit the code file to fix the failing test
+I typed `vim ListExamples.java<enter>`:
+![image](lab4-vim1.png)
+which led me to here:
+![image](lab4-vim2.png)
+
+Then, I typed `<shift+g>` and proceeded with `<up><up><up><up><up><up> <shift+e> <x><a> <left> <2> <esc>`
+![image](lab4-vim3.png)
+
+Then, I typed `<:wq> <enter>` to save and exit out of vim. 
+
+## Step 8 -- Run the tests, demonstrating that they now succeed
+I ran the test again by typing `bash test.sh`. 
+![image](lab4-vim4.png)
+
+
+## Step 9 -- Commit and push the resulting change to your Github account (you can pick any commit message!)
+I typed `git add ListExamples.java`.
+![image](lab4-git1.png)
+
+Then, I typed `git commit -m "it works now"`, and proceeded to type `git push`.
+![image](lab4-git2.png)
+
 
 

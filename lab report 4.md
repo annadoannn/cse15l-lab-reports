@@ -6,4 +6,7 @@ I typed `ssh cs15lfa23ht@ieng6.ucsd.edu`, then `<return>` to execute.
 ![image](lab4.png)
 
 ## Step 5 -- Clone your fork of the repository from your Github account (using the SSH URL)
+I typed `git clone git@github.com:annadoannn/lab7.git<return>`.
+![image](lab4-git.png)
+
 

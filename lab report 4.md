@@ -3,16 +3,24 @@ __By Anna Doan__
 
 We were instructed to do steps 4-9 from [week 7 lab](https://ucsd-cse15l-f23.github.io/week/week7/#week7-lab-report)
 
+- feedback: for each step, summarize the commands you ran and what the effect of those key presses were
+
 ## Step 4 -- Log into ieng6
-I typed `ssh cs15lfa23ht@ieng6.ucsd.edu`, then `<enter>` to execute.
+I typed `ssh cs15lfa23ht@ieng6.ucsd.edu`, then `<enter>` to execute. 
+
+The effect of these key presses resulted in logging into my ieng6 account without a password, hence the SSH command. 
 ![image](lab4.png)
 
 ## Step 5 -- Clone your fork of the repository from your Github account (using the SSH URL)
 I typed `git clone git@github.com:annadoannn/lab7.git<enter>`.
+
+By using the `git clone <SSH URL here>` command, it cloned my fork of the repository from my GitHub account to my ieng6 server workspace. 
 ![image](lab4-git.png)
 
 ## Step 6 -- Run the tests, demonstrating that they fail
-I typed `cd lab7<enter>` then `bash test.sh<enter>`.
+I typed `cd lab7<enter>` to change from my remote home directory to the lab7 directory from the git repository I cloned. 
+
+Then, I typed `bash test.sh<enter>`, to run the test script. The `bash` command runs the `test.sh` bash script. 
 ![image](lab4-bash.png)
 
 ## Step 7 -- Edit the code file to fix the failing test

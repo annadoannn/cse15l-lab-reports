@@ -15,4 +15,4 @@
 - A description of what to edit to fix the bug
 
 ## Part 2 -- Reflection
-**In a couple of sentences, describe something you learned from your lab experience in the second half of this quarter that you didn't know before.
+**In a couple of sentences, describe something you learned from your lab experience in the second half of this quarter that you didn't know before.**

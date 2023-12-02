@@ -3,7 +3,7 @@ __By Anna Doan__
 
 We were instructed to do steps 4-9 from [week 7 lab](https://ucsd-cse15l-f23.github.io/week/week7/#week7-lab-report)
 
-- feedback addressed: for each step, summarize the commands you ran and what the effect of those key presses were
+- feedback addressed: "for each step, summarize the commands you ran and what the effect of those key presses were"
 
 ## Step 4 -- Log into ieng6
 I typed `ssh cs15lfa23ht@ieng6.ucsd.edu`, then `<enter>` to execute. 
@@ -14,7 +14,7 @@ The effect of these key presses resulted in logging into my ieng6 account withou
 ## Step 5 -- Clone your fork of the repository from your Github account (using the SSH URL)
 I typed `git clone git@github.com:annadoannn/lab7.git<enter>`.
 
-By using the `git clone <SSH URL here>` command, it cloned my fork of the repository from my GitHub account to my ieng6 server workspace. 
+By using the `git clone <SSH URL here>` command, it cloned my fork of the linked repository from my GitHub account to my ieng6 server workspace. 
 ![image](lab4-git.png)
 
 ## Step 6 -- Run the tests, demonstrating that they fail

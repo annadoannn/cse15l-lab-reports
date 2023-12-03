@@ -74,7 +74,7 @@ bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-compile-error
   
 I commented out `exit_code=0` in line 16, and changed the `$exit_code` variable to `$?` in line 18. 
 
-The code after the bug fix:
+The modified `grade.sh` file after the bug fix:
 ```
 # Create your buggy grading script here
 
@@ -112,3 +112,5 @@ fi
 
 ## Part 2 -- Reflection
 **In a couple of sentences, describe something you learned from your lab experience in the second half of this quarter that you didn't know before.**
+
+I didn't know about `vim` until it was taught in the second half of the quarter. I found that it was easy to edit the contents of a file if I didn't have an IDE. All I needed was a terminal and that comes installed on most computers! If I didn't know how to use `vim` or needed a quick refresher, it was easy to find a guide by running `vimtutor` in terminal. Overall, it's convenient to use and easy to access.

@@ -69,6 +69,7 @@ _hint:_ What is the bash variable for error codes that we went over in class?
 - The full command line (or lines) you ran to trigger the bug
 ```
 bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-compile-error
+bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-corrected
 ```
 - A description of what to edit to fix the bug
 

@@ -12,16 +12,15 @@ I think this has something to do with my bash variable `exit_code` in line 16. I
 
 ### 2. A response from a TA asking a leading question or suggesting a command to try. (You're mimicking a TA here)
 
-**TA Response:** Hi there! Thanks for reaching out. It appears that the script is incorrectly handling compilation errors and providing misleading information about test results. Upon closer inspection, the exit code for the compilation command is always set to 0, even in case of errors.
+**TA Response:** Hi there! Thanks for reaching out. It appears that the script is incorrectly handling compilation errors and providing misleading information about test results. 
 
 Given this information, what do you need to do to fix the exit code? 
-
 
 _hint:_ What is the bash variable for error codes that we went over in class?
 
 ### 3. Another screenshot/terminal output showing what information the student got from trying that, and a clear description of what the bug is. 
 
-**Student Response:** Thanks for the quick response! With your guidance, I commented out the `exit_code = 0` in line 16 and replaced the `$exit_code` with `$?` in line 18. Since `exit_code` was always set to 0, it was never reassigned to a nonzero integer whenever it ran into an error. By getting rid of the `exit_code` variable and replacing that parameter in line 18 with `$?`, `$?` will hold the exit status of the last executed command. As a result, this gave us the correct output that corresponds with the exit code assigned to whether or not the command succeeded. 
+**Student Response:** Thanks for the quick response! Upon closer inspection, the exit code for the compilation command is always set to 0, even in case of errors. With your guidance, I commented out the `exit_code = 0` in line 16 and replaced the `$exit_code` with `$?` in line 18. Since `exit_code` was always set to 0, it was never reassigned to a nonzero integer whenever it ran into an error. By getting rid of the `exit_code` variable and replacing that parameter in line 18 with `$?`, `$?` will hold the exit status of the last executed command. As a result, this gave us the correct output that corresponds with the exit code assigned to whether or not the command succeeded. 
 
 ![Output Screenshot](l5-correct-output1.png)
 

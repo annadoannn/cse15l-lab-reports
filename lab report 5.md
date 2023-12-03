@@ -15,6 +15,8 @@ I think this has something to do with my bash variable `exit_code` in line 16. I
 **TA Response:** Hi there! Thanks for reaching out. It appears that the script is incorrectly handling compilation errors and providing misleading information about test results. Upon closer inspection, the exit code for the compilation command is always set to 0, even in case of errors.
 
 Given this information, what do you need to do to fix the exit code? 
+
+
 _hint:_ What is the bash variable for error codes that we went over in class?
 
 ### 3. Another screenshot/terminal output showing what information the student got from trying that, and a clear description of what the bug is. 

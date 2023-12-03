@@ -62,6 +62,7 @@ _hint:_ What is the bash variable for error codes that we went over in class?
       exit 1
   fi
   ```
+  **NOTE -** the only file that was changed was `grade.sh`. Everything else stayed the same from (https://github.com/annadoannn/list-examples-grader)  
 - The full command line (or lines) you ran to trigger the bug
 ```
 bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-compile-error

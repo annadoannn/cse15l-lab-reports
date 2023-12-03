@@ -62,7 +62,9 @@ _hint:_ What is the bash variable for error codes that we went over in class?
       exit 1
   fi
   ```
-  **NOTE -** the only file that was changed was `grade.sh`. Everything else stayed the same from (https://github.com/annadoannn/list-examples-grader)  
+  **NOTE -** the only file that was changed was `grade.sh`. The contents within each file stayed the same from https://github.com/annadoannn/list-examples-grader, whcih was forked from the class's repository (https://github.com/ucsd-cse15l-s23/list-examples-grader).
+
+   
 - The full command line (or lines) you ran to trigger the bug
 ```
 bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-compile-error
@@ -71,6 +73,42 @@ bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-compile-error
 
   
 I commented out `exit_code=0` in line 16, and changed the `$exit_code` variable to `$?` in line 18. 
+
+The code after the bug fix:
+```
+# Create your buggy grading script here
+
+set -e
+
+CPATHTESTS=".:../lib/hamcrest-core-1.3.jar:../lib/junit-4.13.2.jar"
+
+rm -rf student-submission
+git clone $1 student-submission
+
+if [ -f "./student-submission/ListExamples.java" ]; then
+    cp TestListExamples.java ./student-submission
+    cd ./student-submission
+    set +e
+
+    javac -cp $CPATHTESTS *.java
+    #exit_code=0
+
+    if [ $? -eq 0 ]; then
+        echo "Tests run: 5, Failures: 0, Errors: 0, Skipped: 0" > output.txt
+        echo "All tests passed"
+        echo Your grade is 100%
+        exit 0
+    else
+        echo Compilation failed. Please check your code.
+        echo Your grade is 0%
+    fi
+else
+    echo "ListExamples.java not found. Are you sure it's in the right directory?"
+    echo Your grade is 0%
+    exit 1
+fi
+
+```
 
 ## Part 2 -- Reflection
 **In a couple of sentences, describe something you learned from your lab experience in the second half of this quarter that you didn't know before.**

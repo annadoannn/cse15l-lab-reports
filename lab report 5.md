@@ -61,7 +61,7 @@ _hint:_ What is the bash variable for error codes that we went over in class?
       exit 1
   fi
   ```
-  **NOTE -** the only file that was changed was `grade.sh`. The contents within each file stayed the same from https://github.com/annadoannn/list-examples-grader, whcih was forked from the class's repository (https://github.com/ucsd-cse15l-s23/list-examples-grader).
+  **NOTE -** the only file that was changed was `grade.sh`. The contents within each file stayed the same from [github.com/annadoannn/list-examples-grader](https://github.com/annadoannn/list-examples-grader), which was forked from the class's repository [github.com/ucsd-cse15l-s23/list-examples-grader](https://github.com/ucsd-cse15l-s23/list-examples-grader).
 
    
 - The full command line (or lines) you ran to trigger the bug
